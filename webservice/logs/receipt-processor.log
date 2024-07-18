@@ -1,0 +1,81 @@
+2024-07-18T01:08:49.767-04:00  INFO 3251 --- [receipt-processor] [main] c.b.webservice.WebserviceApplication     : Starting WebserviceApplication using Java 22.0.2 with PID 3251 (/Users/mahathisharma/Downloads/webservice/target/classes started by mahathisharma in /Users/mahathisharma/Downloads/webservice)
+2024-07-18T01:08:49.770-04:00  INFO 3251 --- [receipt-processor] [main] c.b.webservice.WebserviceApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-07-18T01:08:50.190-04:00  INFO 3251 --- [receipt-processor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-18T01:08:50.199-04:00  INFO 3251 --- [receipt-processor] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-18T01:08:50.199-04:00  INFO 3251 --- [receipt-processor] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18T01:08:50.230-04:00  INFO 3251 --- [receipt-processor] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-18T01:08:50.231-04:00  INFO 3251 --- [receipt-processor] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 429 ms
+2024-07-18T01:08:50.258-04:00  WARN 3251 --- [receipt-processor] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'receiptController' defined in file [/Users/mahathisharma/Downloads/webservice/target/classes/com/backend/webservice/controllers/ReceiptController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.backend.webservice.services.ReceiptService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-07-18T01:08:50.260-04:00  INFO 3251 --- [receipt-processor] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-18T01:08:50.268-04:00  INFO 3251 --- [receipt-processor] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-18T01:08:50.278-04:00 ERROR 3251 --- [receipt-processor] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.backend.webservice.controllers.ReceiptController required a bean of type 'com.backend.webservice.services.ReceiptService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.backend.webservice.services.ReceiptService' in your configuration.
+
+2024-07-18T01:09:45.852-04:00  INFO 3327 --- [receipt-processor] [main] c.b.webservice.WebserviceApplication     : Starting WebserviceApplication using Java 22.0.2 with PID 3327 (/Users/mahathisharma/Downloads/webservice/target/classes started by mahathisharma in /Users/mahathisharma/Downloads/webservice)
+2024-07-18T01:09:45.853-04:00  INFO 3327 --- [receipt-processor] [main] c.b.webservice.WebserviceApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-07-18T01:09:46.237-04:00  INFO 3327 --- [receipt-processor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-18T01:09:46.244-04:00  INFO 3327 --- [receipt-processor] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-18T01:09:46.244-04:00  INFO 3327 --- [receipt-processor] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18T01:09:46.270-04:00  INFO 3327 --- [receipt-processor] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-18T01:09:46.271-04:00  INFO 3327 --- [receipt-processor] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 396 ms
+2024-07-18T01:09:46.294-04:00  WARN 3327 --- [receipt-processor] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'receiptController' defined in file [/Users/mahathisharma/Downloads/webservice/target/classes/com/backend/webservice/controllers/ReceiptController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.backend.webservice.services.ReceiptService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-07-18T01:09:46.295-04:00  INFO 3327 --- [receipt-processor] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-18T01:09:46.304-04:00  INFO 3327 --- [receipt-processor] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-18T01:09:46.315-04:00 ERROR 3327 --- [receipt-processor] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.backend.webservice.controllers.ReceiptController required a bean of type 'com.backend.webservice.services.ReceiptService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.backend.webservice.services.ReceiptService' in your configuration.
+
+2024-07-18T01:10:17.419-04:00  INFO 3364 --- [receipt-processor] [main] c.b.webservice.WebserviceApplication     : Starting WebserviceApplication using Java 22.0.2 with PID 3364 (/Users/mahathisharma/Downloads/webservice/target/classes started by mahathisharma in /Users/mahathisharma/Downloads/webservice)
+2024-07-18T01:10:17.420-04:00  INFO 3364 --- [receipt-processor] [main] c.b.webservice.WebserviceApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-07-18T01:10:17.806-04:00  INFO 3364 --- [receipt-processor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-18T01:10:17.814-04:00  INFO 3364 --- [receipt-processor] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-18T01:10:17.814-04:00  INFO 3364 --- [receipt-processor] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18T01:10:17.838-04:00  INFO 3364 --- [receipt-processor] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-18T01:10:17.838-04:00  INFO 3364 --- [receipt-processor] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 396 ms
+2024-07-18T01:10:17.863-04:00  WARN 3364 --- [receipt-processor] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'receiptController' defined in file [/Users/mahathisharma/Downloads/webservice/target/classes/com/backend/webservice/controllers/ReceiptController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.backend.webservice.services.ReceiptService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-07-18T01:10:17.865-04:00  INFO 3364 --- [receipt-processor] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-18T01:10:17.872-04:00  INFO 3364 --- [receipt-processor] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-18T01:10:17.882-04:00 ERROR 3364 --- [receipt-processor] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.backend.webservice.controllers.ReceiptController required a bean of type 'com.backend.webservice.services.ReceiptService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.backend.webservice.services.ReceiptService' in your configuration.
+
